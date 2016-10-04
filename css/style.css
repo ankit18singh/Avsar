@@ -19,13 +19,13 @@
     right: 6%;
     z-index: 100;
     background: #f2f3f2;
-    font-size: 24px;
+    font-size: 14px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     background-color: dimgray;
 }
 .navbar {
-    min-height: 90px;
+    min-height: 50px;
 }
 a.navbar-brand {
     color: #000;
@@ -36,10 +36,10 @@ a.navbar-brand {
 }
 .navbar-brand {
     float: left;
-    padding: 37px 40px;
+    padding: 17px 17px;
     font-size: 18px;
     line-height: 22px;
-    height: 76px;
+    height: 30px;
 }
 a, .btn, img {
     transition: all 0.5s ease-in-out 0s;
@@ -47,8 +47,10 @@ a, .btn, img {
 a, .btn, img {
     transition: all 0.5s ease-in-out 0s;
 }
-a {
-    text-decoration: none;
+a:hover {
+    font-size: 14px; 
+    text-shadow: 1px 1px white;
+    color: black;
 }
 .navbar-nav > li:first-child > a {
     border-left: 1px solid rgba(255, 255, 255, 0.07);
@@ -60,21 +62,39 @@ a {
 }
 .nav > li > a {
     position: relative;
-    display: block;
-}   
+    padding: 17px 17px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: darkgoldenrod;
+    font-size: 14px;
+}
+.foot > li {
+    margin: 7px;
+}
 .nav {
     margin-bottom: 0;
     padding-left: 0;
     list-style: none;
 }
 a {
-    color: black;
+    color: white;
+    text-shadow: 1px 1px 2px black;
     text-decoration: none;
 }
 @media (min-width: 768px)
 .navbar-nav > li > a {
-    padding-top: 37px;
-    padding-bottom: 37px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.foot {
+   list-style: none;
+    padding-left: 0;
+}
+
+.foot > li > a {
+    text-decoration: none;
+    padding: 6px;
 }
 @media (min-width: 768px)
 .navbar-nav {
@@ -97,7 +117,11 @@ a {
     padding-right: 10px;
 }
 h6 {
+    text-transform: uppercase;
+    font-weight: bold;
     padding-left: 10px;
+    color: black;
+    text-shadow: 1px 1px 2px white;
 }
 .special {
     border-radius: 20px;
@@ -108,4 +132,72 @@ h6 {
 .jumbotron {
     background-image: url(/img/Banner-Background-007.jpg);
 }
+.navbar-default .navbar-brand {
+    color: #FFF;
+   font-family: 'Kaushan Script', cursive;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    text-shadow: 1px 1px 2px black;
+}
 
+.fa-facebook , .fa-twitter, .fa-youtube-play {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 100%;
+    
+}
+.fa-facebook:hover {
+    color: #3b5998;
+    font-size: 2em;
+    background: white;
+}
+.fa-twitter:hover {
+    color: #4099FF;
+    font-size: 2em;
+    background: white;
+}
+.fa-youtube-play:hover {
+    color: red;
+    font-size: 2em;
+    background: white;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: darkgoldenrod;
+}
+.fa-facebook:visited {
+    color: #3b5998;
+}
+
+.fa-twitter:visited {
+    color: #4099FF;
+ }
+.fa-youtube-play:visited {
+    color: red;
+ }
+.dropdown-menu > li > a { 
+    text-shadow: none;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: gold;
+}
+.btn-circle {
+    border: 1px solid white;
+    border-radius: 100%;
+}
+.logofoot {
+    color: white;
+    font-family: 'Titan One', cursive;
+    text-shadow: 1px 1px 2px black; 
+}
+
+marquee > a {
+    text-decoration: none;
+    text-shadow: none;
+}
+marquee > a:hover {
+    text-decoration: none;
+    text-shadow: none;
+}
