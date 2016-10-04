@@ -10,6 +10,7 @@
                           $(".navbar-brand").css('display','block');
                        } else {
                           $('.navbar-default').css('background-color', 'transparent');
+                           $(".navbar-brand").css('display','none');
                        }
                    });
                     }

@@ -67,7 +67,7 @@ a:hover {
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: white;
     background-color: darkgoldenrod;
-    font-size: 14px;
+    font-size: 16px;
 }
 .foot > li {
     margin: 7px;
@@ -135,10 +135,12 @@ h6 {
 .navbar-default .navbar-brand {
     color: #FFF;
    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
 }
 .navbar-default .navbar-nav>li>a {
     color: #FFF;
     text-shadow: 1px 1px 2px black;
+    font-size: 16px;
 }
 
 .fa-facebook , .fa-twitter, .fa-youtube-play {
@@ -203,4 +205,8 @@ marquee > a {
 marquee > a:hover {
     text-decoration: none;
     text-shadow: none;
+}
+body{
+    padding:0;
+    margin:0;
 }
