@@ -1,0 +1,111 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 10007;
+}
+.footer{
+    background-image: url(/img/orange-background.jpg);
+    color: #979797;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.scroll-top {
+    position: fixed;
+    bottom: 0;
+    right: 6%;
+    z-index: 100;
+    background: #f2f3f2;
+    font-size: 24px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: dimgray;
+}
+.navbar {
+    min-height: 90px;
+}
+a.navbar-brand {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.navbar-brand {
+    float: left;
+    padding: 37px 40px;
+    font-size: 18px;
+    line-height: 22px;
+    height: 76px;
+}
+a, .btn, img {
+    transition: all 0.5s ease-in-out 0s;
+}
+a, .btn, img {
+    transition: all 0.5s ease-in-out 0s;
+}
+a {
+    text-decoration: none;
+}
+.navbar-nav > li:first-child > a {
+    border-left: 1px solid rgba(255, 255, 255, 0.07);
+}
+.navbar-nav > li > a {
+    border-right: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid transparent;
+    margin-bottom: -1px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+}   
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+@media (min-width: 768px)
+.navbar-nav > li > a {
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+@media (min-width: 768px)
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.ads {
+    position: fixed;
+    left: -20px;
+    bottom: 50%;
+    z-index: 100;
+    font-size: 24px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: green;
+    color: white;
+    transform: rotate(90deg);
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h6 {
+    padding-left: 10px;
+}
+.special {
+    border-radius: 20px;
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+}
+.jumbotron {
+    background-image: url(/img/Banner-Background-007.jpg);
+}
+
