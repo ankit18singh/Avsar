@@ -131,6 +131,7 @@ h6 {
 }
 .jumbotron {
     background-image: url(/img/Banner-Background-007.jpg);
+    height: 370px;
 }
 .navbar-default .navbar-brand {
     color: #FFF;
@@ -148,6 +149,7 @@ h6 {
     padding: 10px;
     border-radius: 100%;
     width: 50px;
+    margin: 10px;
 }
 .fa-facebook:hover {
     color: #3b5998;
@@ -209,4 +211,18 @@ marquee > a:hover {
 body{
     padding:0;
     margin:0;
+}
+
+.jumbotron > a {
+    margin: 0;
+}
+
+.jumbotron > h1 {
+    padding-top: 50px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.jumbotron > p {
+    color: white;
 }
