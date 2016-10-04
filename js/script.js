@@ -6,7 +6,7 @@
                 $(document).scroll(function() { 
                     scroll_start = $(this).scrollTop();
                     if(scroll_start > offset.top) {
-                          $(".navbar-default").css('background-image', 'url(/img/Banner-Background-007.jpg  )');
+                          $(".navbar-default").css('background-image', "url(img/Banner-Background-007.jpg)");
                           $(".navbar-brand").css('display','block');
                        } else {
                           $('.navbar-default').css('background-color', 'transparent');

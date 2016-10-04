@@ -8,7 +8,7 @@
     z-index: 10007;
 }
 .footer{
-    background-image: url(/img/orange-background.jpg);
+    background-image: url('../img/orange-background.jpg');
     color: #979797;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -130,7 +130,7 @@ h6 {
     padding: 20px;
 }
 .jumbotron {
-    background-image: url(/img/Banner-Background-007.jpg);
+    background-image: url('../img/Banner-Background-007.jpg');
     height: 370px;
 }
 .navbar-default .navbar-brand {
