@@ -304,9 +304,9 @@ article {
     padding: 30px;
 }
 
-.gallary{
+.faq{
     position: fixed;
-    left: -11px;
+    left: -3px;
     bottom: 63%;
     z-index: 100;
     font-size: 24px;
@@ -338,4 +338,37 @@ article {
 }
 .fa-heart{
     color: red;
+}
+
+.blank {
+    padding-top: 100px;
+}
+
+.reg {
+    position: fixed;
+    left: -27px;
+    bottom: 33%;
+    z-index: 100;
+    font-size: 24px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: darkcyan;
+    color: white;
+    transform: rotate(90deg);
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+.modal-dialog {
+    margin-top: 60px;
+}
+.modal-header{
+    background: gold;
+}
+
+#subscribe, #contact, #aboutus, #career, #gallery, #publications, #syllabus, #faq {
+      padding-top: 63px;
 }
