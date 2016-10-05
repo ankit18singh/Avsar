@@ -9,10 +9,14 @@
 }
 .footer{
     background-image: url('../img/orange-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #979797;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 30px;
 }
+
 .scroll-top {
     position: fixed;
     bottom: 0;
@@ -130,7 +134,8 @@ h6 {
     padding: 20px;
 }
 .jumbotron {
-    background-image: url('../img/Banner-Background-007.jpg');
+    background: url('../img/Banner-Background-007.jpg') no-repeat;
+    background-size: cover;
     padding: 100px;
 }
 .navbar-default .navbar-brand {
@@ -217,19 +222,19 @@ marquee > a:hover {
 body{
     padding:0;
     margin:0;
+    overflow-x: hidden;
 }
 
 .jumbotron > a {
     margin: 0;
 }
 
-.jumbotron > h1 {
-    padding-top: 50px; 
+#jumboheader > h1 {
     text-transform: uppercase;
     font-weight: bold;
     color: white;
 }
-.jumbotron > p {
+#jumboheader > p {
     color: white;
 }
 footer {
@@ -294,4 +299,43 @@ h4{
         opacity: 1;
         -webkit-transform: translateY(0%);
     }
+}
+article {
+    padding: 30px;
+}
+
+.gallary{
+    position: fixed;
+    left: -11px;
+    bottom: 63%;
+    z-index: 100;
+    font-size: 24px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: orangered;
+    color: white;
+    transform: rotate(90deg);
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+.carousel {   
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    color: white;   
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 1px 1px 2px black;
+}
+@media only screen and (max-width: 500px) {
+    .carousel {
+        padding-top:10px;
+    }
+    .jumbotron {
+        padding: 50px;
+    }
+}
+.fa-heart{
+    color: red;
 }
