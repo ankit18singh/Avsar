@@ -201,7 +201,8 @@ h6 {
 }
 .logofoot {
     color: white;
-    font-family: 'Titan One', cursive;
+/*    font-family: 'Titan One', cursive;*/
+    font-family: 'Kaushan Script', cursive;
     text-shadow: 1px 1px 2px black; 
 }
 marquee {
