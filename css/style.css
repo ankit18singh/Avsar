@@ -70,7 +70,7 @@ a:hover {
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: white;
-    background-color: darkgoldenrod;
+    background-color: goldenrod;
     font-size: 16px;
 }
 .foot > li {
@@ -320,6 +320,11 @@ article {
     padding-left: 10px;
     padding-right: 10px;
     text-shadow: 1px 1px 2px black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: darkgoldenrod;
 }
 .carousel {   
     padding-top: 100px;
